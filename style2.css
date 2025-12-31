@@ -1,0 +1,54 @@
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none; /* Quita los puntos */
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline; /* Para que los items queden en línea */
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none; /* Quita el subrayado */
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+body {
+    /* 1. Define la imagen de fondo */
+    background-image: url('fondos/slide1.jpg');
+
+    /* 2. Evita que la imagen se repita */
+    background-repeat: no-repeat;
+
+    /* 3. Centra la imagen */
+    background-position: center;
+
+    /* 4. Asegura que la imagen cubra todo el elemento */
+    background-size: cover;
+
+    /* 5. (Opcional pero recomendado) Un color de fondo por si la imagen no carga */
+    background-color: #f0f0f0;
+
+    /* 6. (Opcional) Para fijar la imagen al fondo (efecto parallax) */
+    /* background-attachment: fixed; */
+
+    /* Asegura que el body tenga altura para que el fondo se muestre */
+    min-height: 100vh; /* 100% del alto de la ventana */
+    margin: 0; /* Elimina márgenes por defecto */
+}
+
+/* Estilos para el texto para que se vea bien sobre la imagen */
+h1, p {
+    color: white; /* Texto blanco para que contraste con la imagen */
+    text-shadow: 2px 2px 4px #000000; /* Sombra para mejorar legibilidad */
+    text-align: center;
+}
