@@ -66,9 +66,8 @@ h1, p {
 
 .producto p{
     font-size: 0.9em;
-    color: #666
-    padding: 0 15px;
-}
+    color: #666;
+    padding: 0 15px;}
 
 .producto span{
     display: block;
