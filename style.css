@@ -1,6 +1,6 @@
 body {
     /* 1. Define la imagen de fondo */
-    background-image: url('fondos/images.jpeg');
+    background-image: url('fondos/base.jpg');
 
     /* 2. Evita que la imagen se repita */
     background-repeat: no-repeat;
