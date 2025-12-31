@@ -1,0 +1,93 @@
+body {
+    /* 1. Define la imagen de fondo */
+    background-image: url('fondos/base.jpg');
+
+    /* 2. Evita que la imagen se repita */
+    background-repeat: no-repeat;
+
+    /* 3. Centra la imagen */
+    background-position: center;
+
+    /* 4. Asegura que la imagen cubra todo el elemento */
+    background-size: cover;
+
+    /* 5. (Opcional pero recomendado) Un color de fondo por si la imagen no carga */
+    background-color: #f0f0f0;
+
+    /* 6. (Opcional) Para fijar la imagen al fondo (efecto parallax) */
+    /* background-attachment: fixed; */
+
+    /* Asegura que el body tenga altura para que el fondo se muestre */
+    min-height: 100vh; /* 100% del alto de la ventana */
+    margin: 0; /* Elimina márgenes por defecto */
+}
+
+/* Estilos para el texto para que se vea bien sobre la imagen */
+h1, p {
+    color: white; /* Texto blanco para que contraste con la imagen */
+    text-shadow: 2px 2px 4px #000000; /* Sombra para mejorar legibilidad */
+    text-align: center;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+
+}
+.producto {
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0,0,0,0,0.1);
+   text-align: center;
+   transition: transform 0.2s;
+}
+
+.producto:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0,0.2);
+}
+
+
+
+.producto img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.producto h3{
+    font-size: 1.2em;
+    margin: 10px 0;
+
+}
+
+.producto p{
+    font-size: 0.9em;
+    color: #666;
+    padding: 0 15px;}
+
+.producto span{
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #007bff;
+    margin: 10px 0
+}
+
+.boton{
+    background-color: aqua;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+.boton:hover{
+    background-color: #3e8e41;
+}
