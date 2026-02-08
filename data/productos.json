@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nombre": "Bandolera Frente Cadena",
-    "precio": 25000,
+    "precio": 8000,
     "imagen": "productos/frenteC.jpeg",
     "descripcion": "Diseño funcional y terminaciones a mano.",
     "detalles": ["Cuero legítimo", "Hecho a mano", "Durable"]
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "nombre": "Morral Hombre",
-    "precio": 48000,
+    "precio": 12000,
     "imagen": "productos/morral.jpeg",
     "descripcion": "Pensada para el uso diario.",
     "detalles": ["Costuras reforzadas", "Gran capacidad"]
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "nombre": "Bandolera Rigida",
-    "precio": 25000,
+    "precio": 15000,
     "imagen": "productos/rigida.jpeg",
     "descripcion": "Diseño funcional y terminaciones a mano.",
     "detalles": ["Cuero legítimo", "Hecho a mano", "Durable"]
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "nombre": "Bandolera Redonda",
-    "precio": 48000,
+    "precio": 8000,
     "imagen": "productos/carteraredonda.jpeg",
     "descripcion": "Pensada para el uso diario.",
     "detalles": ["Costuras reforzadas", "Gran capacidad"]
