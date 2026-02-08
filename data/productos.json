@@ -16,7 +16,7 @@
     "detalles": ["Costuras reforzadas", "Gran capacidad"]
   }
   {
-    "id": 1,
+    "id": 3,
     "nombre": "Bandolera Rigida",
     "precio": 25000,
     "imagen": "productos/rigida.jpeg",
@@ -24,7 +24,7 @@
     "detalles": ["Cuero legítimo", "Hecho a mano", "Durable"]
   },
   {
-    "id": 2,
+    "id": 4,
     "nombre": "Bandolera Redonda",
     "precio": 48000,
     "imagen": "productos/carteraredonda.jpeg",
