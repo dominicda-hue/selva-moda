@@ -6,7 +6,7 @@
     "imagen": "productos/frenteC.jpeg",
     "descripcion": "Diseño funcional y terminaciones a mano.",
     "detalles": ["Cuero legítimo", "Hecho a mano", "Durable"]
-  },
+  }
   {
     "id": 2,
     "nombre": "Morral Hombre",
@@ -22,7 +22,7 @@
     "imagen": "productos/rigida.jpeg",
     "descripcion": "Diseño funcional y terminaciones a mano.",
     "detalles": ["Cuero legítimo", "Hecho a mano", "Durable"]
-  },
+  }
   {
     "id": 4,
     "nombre": "Bandolera Redonda",
