@@ -11,7 +11,7 @@
     "id": 2,
     "nombre": "Mochila urbana",
     "precio": 48000,
-    "imagen": "productos/frenteC.jpeg",
+    "imagen": "productos/morral.jpeg",
     "descripcion": "Pensada para el uso diario.",
     "detalles": ["Costuras reforzadas", "Gran capacidad"]
   }
