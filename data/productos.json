@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nombre": "Billetera de cuero",
+    "precio": 25000,
+    "imagen": "productos/frenteC.jpeg",
+    "descripcion": "Diseño funcional y terminaciones a mano.",
+    "detalles": ["Cuero legítimo", "Hecho a mano", "Durable"]
+  },
+  {
+    "id": 2,
+    "nombre": "Mochila urbana",
+    "precio": 48000,
+    "imagen": "productos/frenteC.jpeg",
+    "descripcion": "Pensada para el uso diario.",
+    "detalles": ["Costuras reforzadas", "Gran capacidad"]
+  }
+]
