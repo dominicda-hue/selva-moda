@@ -29,7 +29,7 @@ fetch("data/productos.json")
 `;
 
 
-    // 👇 ESTO TIENE QUE ESTAR ACÁ ADENTRO
+    // ESTO TIENE QUE ESTAR ACÁ ADENTRO
     const telefono = "5491164483261";
 
     const mensaje = `Hola, estoy interesado en ${producto.nombre}`;
